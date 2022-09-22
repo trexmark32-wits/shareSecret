@@ -46,6 +46,9 @@ export class MintPageComponent implements OnInit {
     this.connetContract();
     // console.log(post);
     this.smartContract.methods.userMint(cid).send({ from: this.accounts[0], gas: 21000 });
+    console.log("**Contract Address deployed to polygon mumbai testnet:", contractAddress);
+    console.log("View NFT at:");
+    console.log("https://gateway.pinata.cloud/ipfs/", cid);
   }
 
   connetContract() {
