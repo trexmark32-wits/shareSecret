@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "nftMint"
+  "defaultProject": "nftMint",
+  "cli": {
+    "analytics": false
+  }
 }
