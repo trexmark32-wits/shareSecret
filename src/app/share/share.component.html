@@ -39,7 +39,8 @@
             </div>
           </div>
           <div class="mx-5">
-            <b>SHARES: {{ shares }}</b>
+            <b>SHARES:<br /></b>
+            <b *ngFor="let item of hexShares">{{ item }}<br /></b>
           </div>
         </div>
       </div>
@@ -95,7 +96,7 @@
             </div>
           </div>
           <div class="mx-5">
-            <b>SECRET: {{ recovered }}</b>
+            <b>SECRET: {{ recovered1 }}</b>
           </div>
         </div>
       </div>
